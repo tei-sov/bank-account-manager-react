@@ -1,12 +1,10 @@
-import React from 'react';
-import bulma from 'bulma';
-import BankAccountsPage from './BankAccountsPage';
-import './App.css';
+import React from "react";
+// import bulma from 'bulma';
+import BankAccountsPage from "./BankAccountsPage";
+import "./App.css";
 
 function App() {
-  return (
-    <BankAccountsPage />
-  );
+  return <BankAccountsPage />;
 }
 
 export default App;

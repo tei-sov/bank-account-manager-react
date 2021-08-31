@@ -2,11 +2,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Router from "./Router";
 import * as serviceWorker from "./serviceWorker";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import { accountReducer } from "./reducer/accountReducer";
+
+const store = createStore(accountReducer);
 
 const App = (
-  <React.StrictMode>
-    <Router />
-  </React.StrictMode>
+  <Provider store={store}>
+    <React.StrictMode>
+      <Router />
+    </React.StrictMode>
+  </Provider>
 );
 
 ReactDOM.render(App, document.getElementById("root"));
