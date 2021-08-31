@@ -26,4 +26,4 @@ all the CRUD functionality using react redux for shared state management.
 - Deploy your work and add the link to the ReadMe.
 - Update the ReadMe to outline the steps you took to make the app work.
 - Push your work to Github.
-- Submit a pull request to the main repo: https://github.com/codetrainafrica/contact-manager-react/
+- Submit a pull request to the main repo: https://github.com/codetrainafrica/bank-account-manager-react
