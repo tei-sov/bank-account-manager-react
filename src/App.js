@@ -1,4 +1,5 @@
 import React from 'react';
+import bulma from 'bulma';
 import BankAccountsPage from './BankAccountsPage';
 import './App.css';
 
