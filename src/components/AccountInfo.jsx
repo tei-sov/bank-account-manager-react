@@ -8,7 +8,7 @@ const AccountInfo = ({
   account_number,
   bank_name,
   bank_branch,
-  deleteAccount
+  deleteAccount,
 }) => {
   const removeAccount = () => {
     deleteAccount(id);
